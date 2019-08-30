@@ -1,0 +1,32 @@
+{
+  "type": "library",
+  "name": "czt/unipush",
+  "homepage": "https://www.pollylee.cn",
+  "description": "it is used in apps push develop by uni-app, uni-app unipush, app",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "libo",
+      "email": "libo@usa.com",
+      "homepage": "http://www.pollylee.cn"
+    }
+  ],
+  "keywords": [
+    "Uni-app",
+    "Uniapp",
+    "APP",
+    "Unipush",
+    "libo",
+    "czt"
+  ],
+  "require": {
+    "php": ">=5.4",
+    "topthink/framework": "^5.1",
+    "topthink/think-helper": ">=1.0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "czt\\unipush\\": "src"
+    }
+  }
+}
