@@ -4,6 +4,7 @@ namespace czt\unipush;
 require_once(dirname(__FILE__) . '/' . 'config.php');
 require_once(dirname(__FILE__) . '/' . 'igetui/IGt.APNPayload.php');
 require_once(dirname(__FILE__) . '/' . 'IGt.Push.php');
+require_once(dirname(__FILE__).'/'.'igetui/template/notify/IGt.Notify.php');
 
 class PushService
 {
